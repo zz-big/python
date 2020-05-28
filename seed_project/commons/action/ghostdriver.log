@@ -1,0 +1,44 @@
+[INFO  - 2020-04-19T03:13:02.094Z] GhostDriver - Main - running on port 63004
+[INFO  - 2020-04-19T03:13:06.513Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0","webSecurityEnabled":true}
+[INFO  - 2020-04-19T03:13:06.513Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.customHeaders:  - {"Referer":"https://www.baidu.com"}
+[INFO  - 2020-04-19T03:13:06.513Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.resourceTimeout":1000,"phantomjs.page.settings.loadImages":false,"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0","phantomjs.page.customHeaders.Referer":"https://www.baidu.com"}
+[INFO  - 2020-04-19T03:13:06.513Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b066db90-81eb-11ea-91c3-a5a9b213829f
+[ERROR - 2020-04-19T03:13:06.521Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Length\":\"74\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:63004\",\"User-Agent\":\"selenium/3.141.0 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 1000000, \\\"sessionId\\\": \\\"b066db90-81eb-11ea-91c3-a5a9b213829f\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/b066db90-81eb-11ea-91c3-a5a9b213829f/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:07.714Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - msg: Error: Error: addLabel(labelID)参数错误:labelID 对像不存在!(value:tab_yw_02)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:07.714Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - stack:
+  onload (https://n.sinaimg.cn/news/components/common.js:2)
+  (anonymous function) (https://n.sinaimg.cn/news/components/common.js:2)
+  onload (https://n.sinaimg.cn/news/components/common.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:08.757Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:08.757Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - stack:
+  h (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+  b (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+  (anonymous function) (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:08.783Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:08.783Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - stack:
+  h (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+  b (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+  (anonymous function) (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:08.785Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-19T03:13:08.786Z] Session [b066db90-81eb-11ea-91c3-a5a9b213829f] - page.onError - stack:
+  h (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+  b (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+  (anonymous function) (https://atanx.alicdn.com/t/tanxssp.js?_v=12:1)
+
+  phantomjs://platform/console++.js:263 in error

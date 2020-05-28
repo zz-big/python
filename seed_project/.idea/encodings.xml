@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/action/page_queue.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/util/db_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/util/file_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/util/html_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/util/redis_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/util/request_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/util/time_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/util/util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/configs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dowmload/send_sms_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shell" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

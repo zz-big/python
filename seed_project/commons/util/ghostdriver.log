@@ -1,0 +1,24 @@
+[INFO  - 2019-11-24T07:04:43.701Z] GhostDriver - Main - running on port 60235
+[INFO  - 2019-11-24T07:04:48.136Z] Session [b3b0f000-0e88-11ea-a6be-b5630a3d6908] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0","webSecurityEnabled":true}
+[INFO  - 2019-11-24T07:04:48.136Z] Session [b3b0f000-0e88-11ea-a6be-b5630a3d6908] - page.customHeaders:  - {"Referer":"https://www.baidu.com"}
+[INFO  - 2019-11-24T07:04:48.137Z] Session [b3b0f000-0e88-11ea-a6be-b5630a3d6908] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.resourceTimeout":1000,"phantomjs.page.settings.loadImages":false,"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0","phantomjs.page.customHeaders.Referer":"https://www.baidu.com"}
+[INFO  - 2019-11-24T07:04:48.137Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b3b0f000-0e88-11ea-a6be-b5630a3d6908
+[ERROR - 2019-11-24T07:04:48.146Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Length\":\"74\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:60235\",\"User-Agent\":\"selenium/3.141.0 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 1000000, \\\"sessionId\\\": \\\"b3b0f000-0e88-11ea-a6be-b5630a3d6908\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/b3b0f000-0e88-11ea-a6be-b5630a3d6908/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-24T07:05:30.711Z] Session [b3b0f000-0e88-11ea-a6be-b5630a3d6908] - page.onError - msg: TypeError: null is not an object (evaluating 'c')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-24T07:05:30.711Z] Session [b3b0f000-0e88-11ea-a6be-b5630a3d6908] - page.onError - stack:
+  scrollTop (http://n.sinaimg.cn/ent/mainpage/js/pl/entShare.js?v=1.0:1)
+  c (http://n.sinaimg.cn/ent/mainpage/js/pl/entShare.js?v=1.0:1)
+  (anonymous function) (http://n.sinaimg.cn/ent/mainpage/js/pl/entShare.js?v=1.0:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-24T07:05:30.964Z] Session [b3b0f000-0e88-11ea-a6be-b5630a3d6908] - page.onError - msg: TypeError: undefined is not an object (evaluating 'document.getElementsByTagName("meta").sinaPlistaAD.content')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-24T07:05:30.964Z] Session [b3b0f000-0e88-11ea-a6be-b5630a3d6908] - page.onError - stack:
+  sinaplistaAD (http://d4.sina.com.cn/litong/zhitou/sinaads/release/spec/sinaPlistaAD.js:1)
+
+  phantomjs://platform/console++.js:263 in error
